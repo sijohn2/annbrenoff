@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=PT+Sans&display=swap'); 
+
 html, body {
     height: 100%;
     width: 100%;
@@ -12,16 +14,20 @@ html, body {
   }
   main {  
       display:flex;
-      position: fixed;
+
   
   }
   main aside {
       flex:.7;
       background:white;
+
        }
-  
+  aside h1 {font-family: 'Antonio';font-size: 64px; margin-left: 40px; }
+
+body {
+    font-family: 'PT sans';font-size: 22px;}
  
-  .book-cover {width: 30%; margin: auto ; text-align:right ;padding: 100px; }
+  .book-cover {width: 30%; margin: auto ; text-align:center ;padding: 100px; }
  
   main section {
       flex:3;}
@@ -40,6 +46,7 @@ html, body {
  nav a {
       text-decoration:none;
       padding:10px;
+      color:black;
     
   }
   nav a:hover {
