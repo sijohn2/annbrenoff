@@ -2,37 +2,35 @@
 
 html, body {
     height: 100%;
-    width: 100%;
-  }
+    width: 100%; }
  
-    body {
+body {
 
       background: rgb(168,168,170);
       background: linear-gradient(180deg, rgba(168,168,170,1) 0%, rgba(224,224,224,1) 100%);
       margin:0;
-      height:200vh;
-  }
-  main {  
-      display:flex;
+      height:200vh; }
+ 
+main {  
+      display:flex;}
 
-  
-  }
-  main aside {
+main aside {
       flex:.7;
-      background:white;
+      background:white;}
 
-       }
-  aside h1 {font-family: 'Antonio';font-size: 50px; margin-left: 40px; position: fixed; }
+aside h1 {
+    font-family: 'Antonio';font-size: 50px; margin-left: 40px; position: fixed; }
 
 body {
     font-family: 'Antonio';font-size: 25px;}
  
-  .book-cover {width: 30%; margin: 100px; text-align:center ;padding: 100px; }
+.book-cover {
+    width: 30%; margin: 100px; text-align:center ;padding: 100px; }
  
-  main section {
+main section {
       flex:3;}
 
-  nav ul {
+nav ul {
       display:flex;
       list-style:none;
       flex-direction:column;
@@ -40,35 +38,31 @@ body {
       margin:18%;
       padding:0;
       margin-left:30px;
-      line-height: 190%;
- }
+      line-height: 190%;}
+    
  
- nav a {
+nav a {
       text-decoration:none;
       padding:10px;
-      color:black;
-    
-  }
-  nav a:hover {
-      background:red;
-  }
+      color:black; }
 
-  .amazon-btn {
+nav a:hover {
+      background:red;}
+
+.amazon-btn {
       width:90px;
       height:90px;
       border-radius: 50%;
       background:#333;
-      position:absolute;
+      position:fixed;
       top:40px;
-      right:40px;
-    }
+      right:40px;}
 
 .amazon-btnn {
     width:90px;
     height:90px;
     border-radius: 50%;
     background:#333;
-    position: absolute;
+    position: fixed;
     top:150px;
-    right:40px;
-  }
+    right:40px; }
