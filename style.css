@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+ 
+    body {
+
+      background: rgb(168,168,170);
+      background: linear-gradient(180deg, rgba(168,168,170,1) 0%, rgba(224,224,224,1) 100%);
+      margin:0;
+      height:200vh;
+  }
+  main {  
+      display:flex;
+      position: fixed;
+  
+  }
+  main aside {
+      flex:.7;
+      background:white;
+       }
+  
+ 
+  .book-cover {width: 30%; margin: auto ; text-align:right ;padding: 100px; }
+ 
+  main section {
+      flex:3;}
+
+  nav ul {
+      display:flex;
+      list-style:none;
+      flex-direction:column;
+      position: fixed;
+      margin:10%;
+      padding:0;
+      margin-left:40px;
+      line-height: 220%;
+ }
+ 
+ nav a {
+      text-decoration:none;
+      padding:10px;
+    
+  }
+  nav a:hover {
+      background:red;
+  }
+
+  .amazon-btn {
+      width:90px;
+      height:90px;
+      border-radius: 50%;
+      background:#333;
+      position:absolute;
+      top:40px;
+      right:40px;
+    }
+
+.amazon-btnn {
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+    background:#333;
+    position: absolute;
+    top:150px;
+    right:40px;
+  }
