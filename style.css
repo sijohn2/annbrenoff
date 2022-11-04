@@ -1,191 +1,222 @@
-@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=PT+Sans&display=swap'); 
-*{box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=PT+Sans&display=swap');
+* {
+  box-sizing: border-box;
+}
 
-html{
- }
- 
+html {
+}
+
 body {
+  background: rgb(168, 168, 170);
+  background: linear-gradient(180deg, rgba(168, 168, 170, 1) 0%, rgba(224, 224, 224, 1) 100%);
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'PT Sans';
+  font-size: 20px;
+}
 
-      background: rgb(168,168,170);
-      background: linear-gradient(180deg, rgba(168,168,170,1) 0%, rgba(224,224,224,1) 100%);
-      margin:0; min-height: 100vh;} 
-     
-     main {  
-      display:flex;}
-        
+main {
+  display: flex;
+}
+
 main aside {
-      flex:.7;
-      background:white;
-      min-height: 100vh;}
+  flex: 0.7;
+  background: white;
+  min-height: 100vh;
+}
 
 aside h1 {
-    font-family: 'Antonio';font-size: 45px; margin-left: 40px; position: fixed; }
-
-body {
-    font-family: 'Antonio';font-size: 25px;}
- 
-.book-cover {
-    width: 30%; margin: 95px 100px; justify-content:center; padding-left: 270px;}
-.darklink{color: white;
+  font-family: 'Antonio';
+  font-size: 45px;
+  margin-left: 40px;
+  position: fixed;
 }
-.amazon-btn p {margin-top: 30px;
-margin-left: 8px;}
+aside {
+  font-family: 'Antonio';
+}
+aside li {
+  font-size: 25px;
+}
 
-.amazon-btnn p{margin-top: 30px;
-      margin-left: 30px;}
+.book-cover {
+  width: 40vw;
+  margin: 80px auto;
+}
+.book-cover img {
+  width: 100%;
+}
+.darklink {
+  color: white;
+}
+.amazon-btn p {
+  margin-top: 30px;
+  margin-left: 8px;
+}
+
+.amazon-btnn p {
+  margin-top: 30px;
+  margin-left: 30px;
+}
 main section {
-      flex:3;}
+  flex: 3;
+}
 
 nav ul {
-      display:flex;
-      list-style:none;
-      flex-direction:column;
-      position: fixed;
-      margin:18%;
-      padding:0;
-      margin-left:30px;
-      line-height: 190%;}
-    
- 
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  position: fixed;
+  margin: 18%;
+  padding: 0;
+  margin-left: 30px;
+  line-height: 190%;
+}
+
 nav a {
-      text-decoration:none;
-      padding:10px;
-      color:black; }
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
 
 nav a:hover {
-      background:red;}
+  background: red;
+}
 
 .amazon-btn {
-      width:90px;
-      height:90px;
-      border-radius: 50%;
-      background:#333;
-      position:fixed;
-      top:40px;
-      right:40px;}
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #333;
+  position: fixed;
+  top: 40px;
+  right: 40px;
+}
 
 .amazon-btnn {
-    width:90px;
-    height:90px;
-    border-radius: 50%;
-    background:#333;
-    position: fixed;
-    top:150px;
-    right:40px; }
-
-.blog-container{
-      display: flex;
-      margin: 20px 0px;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;}
-
-.blog-box{
-      margin: 20px;
-      flex:1;
-      width: 300px;
-}
- 
-.blog-img{
-      width: 100%;
-     height: auto;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #333;
+  position: fixed;
+  top: 150px;
+  right: 40px;
 }
 
-.blog-img img{
-      width: 100%;
-     height: 100%;
-     object-fit: cover;
-     object-position: center;
+.blog-container {
+  display: flex;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.blog-text{
-      display: flex;
-      padding: 30px;
-      flex-direction: column;
+.blog-box {
+  flex: 33%;
 }
 
-.blog-text span{
-      color: red;
-      font-size: 12px;
+.blog-img {
+  width: 100%;
+  height: auto;
+  padding: 0 20px;
 }
 
-.blog-text .blog-title{
-      font-size: 20px;
-      color: black;
-      font-weight: 500;
+.blog-img img {
+  width: 100%;
 }
 
-.about{
-    width: 100%;  
-    padding:78px 0px;
+.blog-text {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
 }
-.about img{
-     height: auto;
-     width: 350px;
-    float: right;
-    margin: 0 100px;
-  }
-   
+
+.blog-text span {
+  color: red;
+  font-size: 12px;
+}
+
+.blog-text .blog-title {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+}
+
+.about {
+  width: 100%;
+  padding: 78px 0px;
+}
+.about img {
+  height: auto;
+  width: 350px;
+  float: right;
+  margin: 0 100px;
+}
+
 .about-text p {
-      margin: 90px;
-font-size: 18px;
-   }
+  margin: 90px;
+  font-size: 18px;
+}
 .speaking-text p {
-      font-size: 12px;
- }
-
+  font-size: 12px;
+}
+.about h1 {
+  margin-left: 90px;
+}
+.speaking h1 {
+  margin-left: 90px;
+}
+.speaking p {
+  margin: 90px;
+}
 .contact {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
- }
-
- .contactform .inputbox {
-      position: relative;
-      width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.contactform .inputbox input,  
-.contactform .inputbox textarea
-{
-      width: 400px;
-      padding: 5px 0;
-      font: 18px;
-      margin: 10px 0;
-      border:none;
-      border-bottom: 2px solid black; 
-      outline:none;
-      resize: none;
-      
+.contactform .inputbox {
+  position: relative;
+  width: 100%;
 }
 
-.contactform .inputbox span{
-      position: absolute;
-      left: 0;
-      padding: 5px 0;
-      margin: 10px 0;
-      font-size: 16px;
-      pointer-events: none;
-      transition: 0.5s;
-      color: black;
+.contactform .inputbox input,
+.contactform .inputbox textarea {
+  width: 400px;
+  padding: 5px 0;
+  font: 18px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  resize: none;
+}
+
+.contactform .inputbox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  margin: 10px 0;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.5s;
+  color: black;
 }
 .contactform .inputbox input:focus ~ span,
 .contactform .inputbox input:valid ~ span,
 .contactform .inputbox textarea:focus ~ span,
-.contactform .inputbox textarea:valid ~ span{
-color: red;
-font-size:10px;
-transform:translate();
+.contactform .inputbox textarea:valid ~ span {
+  color: red;
+  font-size: 10px;
+  transform: translate();
 }
 
-.contactform .inputbox input[type="submit"]{
-width: 120px;
-background: black;
-color:white;
-border: none;
-cursor: pointer;
-padding: 10px;
-font-size: 18px;
+.contactform .inputbox input[type='submit'] {
+  width: 120px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
 }
