@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=PT+Sans&display=swap'); 
+*{box-sizing: border-box;}
 
 html{
  }
@@ -25,7 +26,13 @@ body {
  
 .book-cover {
     width: 30%; margin: 95px 100px; justify-content:center; padding-left: 270px;}
- 
+.darklink{color: white;
+}
+.amazon-btn p {margin-top: 30px;
+margin-left: 8px;}
+
+.amazon-btnn p{margin-top: 30px;
+      margin-left: 30px;}
 main section {
       flex:3;}
 
