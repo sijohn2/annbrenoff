@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600;700&family=PT+Sans&display=swap'); 
 
-html, body {
-    height: 100%;
-    width: 100%; }
+html{
+ }
  
 body {
 
@@ -16,7 +15,7 @@ body {
 main aside {
       flex:.7;
       background:white;
-min-height: 100vh;}
+      min-height: 100vh;}
 
 aside h1 {
     font-family: 'Antonio';font-size: 45px; margin-left: 40px; position: fixed; }
@@ -25,7 +24,7 @@ body {
     font-family: 'Antonio';font-size: 25px;}
  
 .book-cover {
-    width: 30%; margin: 100px; text-align:center ;padding: 0 100px; }
+    width: 30%; margin: 95px 100px; justify-content:center; padding-left: 270px;}
  
 main section {
       flex:3;}
@@ -69,17 +68,17 @@ nav a:hover {
 
 .blog-container{
       display: flex;
-      margin: 20px;
+      margin: 20px 0px;
       flex-wrap: wrap;
       justify-content: center;
-      align-items: center;
-    
-}
+      align-items: center;}
 
 .blog-box{
       margin: 20px;
-      flex:1;}
-
+      flex:1;
+      width: 300px;
+}
+ 
 .blog-img{
       width: 100%;
      height: auto;
@@ -97,10 +96,89 @@ nav a:hover {
       padding: 30px;
       flex-direction: column;
 }
+
 .blog-text span{
- 
+      color: red;
+      font-size: 12px;
 }
 
-.blog-title{
+.blog-text .blog-title{
+      font-size: 20px;
       color: black;
+      font-weight: 500;
+}
+
+.about{
+    width: 100%;  
+    padding:78px 0px;
+}
+.about img{
+     height: auto;
+     width: 350px;
+    float: right;
+    margin: 0 100px;
+  }
+   
+.about-text p {
+      margin: 90px;
+font-size: 18px;
+   }
+.speaking-text p {
+      font-size: 12px;
+ }
+
+.contact {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+ }
+
+ .contactform .inputbox {
+      position: relative;
+      width: 100%;
+}
+
+
+.contactform .inputbox input,  
+.contactform .inputbox textarea
+{
+      width: 400px;
+      padding: 5px 0;
+      font: 18px;
+      margin: 10px 0;
+      border:none;
+      border-bottom: 2px solid black; 
+      outline:none;
+      resize: none;
+      
+}
+
+.contactform .inputbox span{
+      position: absolute;
+      left: 0;
+      padding: 5px 0;
+      margin: 10px 0;
+      font-size: 16px;
+      pointer-events: none;
+      transition: 0.5s;
+      color: black;
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span{
+color: red;
+font-size:10px;
+transform:translate();
+}
+
+.contactform .inputbox input[type="submit"]{
+width: 120px;
+background: black;
+color:white;
+border: none;
+cursor: pointer;
+padding: 10px;
+font-size: 18px;
 }
