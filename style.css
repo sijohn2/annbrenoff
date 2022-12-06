@@ -38,9 +38,10 @@ aside li {
   font-size: 25px;
 }
 
-.book-cover {
-  width: 40vw;
-  margin: 80px auto;
+.flip-box{
+  width: 30vw;
+ margin-top: 52px;
+  margin-left: 350px;
 }
 .book-cover img {
   width: 100%;
